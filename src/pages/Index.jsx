@@ -21,7 +21,7 @@ const Index = () => {
 
       <main>
         <h1 className="text-4xl font-bold text-center mb-8">
-          What do you want <span className="text-gray-300">to</span> <span className="text-gray-100">build</span>?
+          What's <span className="text-gray-300">up</span>
         </h1>
 
         <SuggestionCards />
