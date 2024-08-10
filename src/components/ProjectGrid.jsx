@@ -1,11 +1,11 @@
 import React from 'react';
 
 const ProjectCard = ({ title, author, time, imageUrl }) => (
-  <div className="bg-gray-800 rounded-lg overflow-hidden">
+  <div className="bg-blue-800 rounded-lg overflow-hidden">
     <img src={imageUrl} alt={title} className="w-full h-32 object-cover" />
     <div className="p-4">
       <h3 className="text-white font-semibold">{title}</h3>
-      <p className="text-gray-400 text-sm">Created {time} by {author}</p>
+      <p className="text-blue-300 text-sm">Created {time} by {author}</p>
     </div>
   </div>
 );
